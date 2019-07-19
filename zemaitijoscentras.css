@@ -8,7 +8,7 @@
     ©2015-2019 UAB Žemaitijos Odontologijos Centras
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
 root { 
     display: block;
@@ -21,8 +21,8 @@ body {
     font-size: medium;
     line-height: 1.5em;
     background-color: white;
-    min-width: 720px;
-    max-width: 1280px;
+    min-width: 540px;
+    max-width: 1200px;
 }
 
 .logo {
@@ -32,7 +32,7 @@ body {
 
 header{
     background-color: white;
-    padding: 0 5%;
+    padding: 0 2%;
 }
 
 article {
@@ -45,6 +45,7 @@ article {
 article h3{  
    color: #003366;
    margin-top: 0;
+   font-weight: 500;
 }
 
 
@@ -57,11 +58,11 @@ article.with_image img{
     float:right;   
 }
 
-ul {
+/*ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+}*/
 
 nav{
     clear: both;	
@@ -76,7 +77,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 nav ul li{
@@ -95,7 +96,7 @@ nav ul li a{
     line-height: 50px;
     font-size: 17px;
     color: white;
-    text-shadow: 0 1px 0 green;
+    /*text-shadow: 0 1px 0 green;*/
     text-decoration: none;
 }
 
@@ -120,7 +121,7 @@ nav ul li a:hover{
 }
 
 .content{
-    margin:1% 5%;
+    margin:1% 2%;
 }
 
 table {    
@@ -129,18 +130,17 @@ table {
 }
 
 td, th {
-    font-size: 1em;
-    border: 1px solid #003366;
-    padding: 3px 7px 2px 7px;
+    border-bottom: 1px solid #003366;
+    padding: 3px 7px;
 }
 
 th {
-    font-size: 1.1em;
     text-align: left;
     padding-top: 5px;
     padding-bottom: 4px;
     background-color: #003366;
     color: #ffffff;
+    font-weight: 500;
 }
 
 tr.alt td {
@@ -161,6 +161,12 @@ tr.alt td {
     font-size:  xx-large;
 }
 
+#fb {
+    float: right;
+    margin-top: 15px;
+    padding: 5px;   
+}
+
 #darbo-laikas{
     background-color: whitesmoke;
     border-radius: 50px 5px;  
@@ -170,9 +176,15 @@ tr.alt td {
     float:left;
     margin-right: 5px;
 }
+
+#odontologas-mazeikiuose{
+    float: right;
+}
+
 #main-foto{
     width: 65%;
     height: auto;
+    margin-left: 10px;
 }
 
 
